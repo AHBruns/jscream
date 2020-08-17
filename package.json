@@ -1,0 +1,23 @@
+{
+  "name": "jscream-ahb",
+  "version": "1.0.0",
+  "description": "A simple library to convert strings to `screams`.",
+  "main": "./dist/index.js",
+  "types": "./dist/index/.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AHBruns/jscream"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Alex Bruns <alex@alexbruns.dev>",
+  "license": "Unlicense",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
+}
